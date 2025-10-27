@@ -1,0 +1,11 @@
+# save_model.py
+from sklearn.datasets import load_iris
+from sklearn.ensemble import RandomForestClassifier
+import pickle
+
+iris = load_iris()
+model = RandomForestClassifier(n_estimators=100)
+model.fit(iris.data, iris.target_names[iris.target])
+
+with open("model/iris_model.pkl", "wb") as f:
+    pickle.dump(model, f)
