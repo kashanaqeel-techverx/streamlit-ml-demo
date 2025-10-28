@@ -1,6 +1,6 @@
 # 🌸 Streamlit ML Demo
 
-A simple Streamlit web app demonstrating Iris flower classification, deployed on Google Cloud Run via Cloud Build.
+A simple Streamlit web app demonstrating Iris flower classification, deployed on Google Cloud Run via Cloud Build..
 
 ---
 
